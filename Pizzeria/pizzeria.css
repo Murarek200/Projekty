@@ -14,8 +14,8 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2017/04/05/01/20/wood-2203740_1280.jpg");
 }
 header {
-    font-family: 'Cookie', cursive;
-    padding: 5px;
+    font-family: 'Oswald', cursive;
+    padding: 15px;
     background-color: black;
     width: 100vw;
 }
@@ -53,10 +53,11 @@ header {
     width: 49.5vw;
     float: left;
     height: 18.2vh;
-    font-family: cursive, Geneva;
+    font-family: 'Oswald', Geneva;
 }
 .slider-half-item article {
     margin: 2rem;
+    font-size: 1.4rem;
 }
 .slider-half-item article .button-section {
     margin-top: 1rem;
@@ -66,7 +67,7 @@ header {
     padding: 8px;
     text-decoration: none;
     margin: 2px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 hr {
     display: block;
@@ -104,7 +105,7 @@ hr {
 }
 
 .advantages-one-third {
-    width: 33.3vw;
+    width: 33.33vw;
     min-width: 225px;
     float: left;
     margin: 25px 0px;
@@ -118,7 +119,7 @@ hr {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
 }
 .best-ingredients {
     background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg");
@@ -134,8 +135,6 @@ hr {
     left: 2%;
     bottom: 10px;
 }
-
-
 .kitchen-menu {
     background-color: black;
     width: 100vw;
@@ -144,18 +143,41 @@ hr {
     width: 50vw;
     min-width: 250px;
     float: left;
-    font-family: cursive, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 .menu-one-forth img {
     width: 100%;
 }
+.about {
+    width: 100vw;
+    background-color: black;
+    margin: 25px 0px 0px 0px;
+    padding: 15px;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+}
+.text-about {
+    width: 70vw;
+    font-family: 'Oswald', cursive;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.photo-cooker {
+    width: 450px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .page-footer {
     width: 100%;
     background-color: black;
-    font-family: Cookie, cursive;
+    font-family: 'Oswald', cursive;
     padding: 15px;
     margin: 25px 0px;
 }
@@ -163,6 +185,7 @@ hr {
 @media screen and (max-width: 675px) {
     .slider-half-item {
         width: 100vw;
+        height: 19%;
     }
     .text {
         text-align: center;
@@ -178,6 +201,14 @@ hr {
         flex-direction: column;
     }
     .pizza-img {
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+    .text-about{
+        width: 100vw;
+    }
+    .photo-cooker {
         display: none;
         height: 0px;
         width: 0px;
